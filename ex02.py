@@ -3,7 +3,7 @@ import uuid
 
 #이미지 추출
 
-img_url = ""
+img_url = "https://movie-phinf.pstatic.net/20220708_75/16572722362230AyHS_JPEG/movie_image.jpg?type=m203_290_2"
 
 #파일 이름 결정
 saveName = str(uuid.uuid4())
