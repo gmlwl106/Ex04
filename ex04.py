@@ -30,7 +30,10 @@ for i, cmt_tag in enumerate(cmt_tags):
         cmt = cmt_tag.find_element(By.CSS_SELECTOR, "li p").text
     except:
         cmt = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-        
+
     date = cmt_tag.find_element(By.CSS_SELECTOR, ".txt_date").text
 
     print(i+1, point, cmt, date, end="\n\n")
+
+
+    
